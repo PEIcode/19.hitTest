@@ -14,6 +14,8 @@
 		FA6D0DB92125521100D9D31F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0DB72125521100D9D31F /* LaunchScreen.storyboard */; };
 		FA6D0DC42125521100D9D31F /* _9_hitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D0DC32125521100D9D31F /* _9_hitTestTests.swift */; };
 		FA6D0DCF2125521100D9D31F /* _9_hitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D0DCE2125521100D9D31F /* _9_hitTestUITests.swift */; };
+		FA6D0DDD2125537C00D9D31F /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D0DDC2125537C00D9D31F /* ParentView.swift */; };
+		FA6D0DDF21256C8800D9D31F /* PSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D0DDE21256C8800D9D31F /* PSButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FA6D0DCA2125521100D9D31F /* 19.hitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 19.hitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6D0DCE2125521100D9D31F /* _9_hitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9_hitTestUITests.swift; sourceTree = "<group>"; };
 		FA6D0DD02125521100D9D31F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6D0DDC2125537C00D9D31F /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
+		FA6D0DDE21256C8800D9D31F /* PSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				FA6D0DB52125521100D9D31F /* Assets.xcassets */,
 				FA6D0DB72125521100D9D31F /* LaunchScreen.storyboard */,
 				FA6D0DBA2125521100D9D31F /* Info.plist */,
+				FA6D0DDC2125537C00D9D31F /* ParentView.swift */,
+				FA6D0DDE21256C8800D9D31F /* PSButton.swift */,
 			);
 			path = 19.hitTest;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6D0DDF21256C8800D9D31F /* PSButton.swift in Sources */,
 				FA6D0DB1212551FE00D9D31F /* ViewController.swift in Sources */,
+				FA6D0DDD2125537C00D9D31F /* ParentView.swift in Sources */,
 				FA6D0DAF212551FE00D9D31F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
