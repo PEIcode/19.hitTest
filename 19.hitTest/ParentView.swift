@@ -49,8 +49,8 @@ class ParentView: UIView {
                 rect2 = btn.frame
             }
         }
-        print(rect2?.contains(point) as Any)
-        print(rect.contains(point))
+//        print(rect2?.contains(point) as Any)
+//        print(rect.contains(point))
         if (rect.contains(point) || (rect2?.contains(point))!){
             return true
         }else{
