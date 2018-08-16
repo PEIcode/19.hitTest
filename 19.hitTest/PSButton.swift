@@ -4,7 +4,7 @@
 //
 //  Created by xingshulin on 2018/8/16.
 //  Copyright © 2018年 xingshulin. All rights reserved.
-//
+// 按钮的时间间隔
 
 import UIKit
 
@@ -26,6 +26,7 @@ extension UIButton{
         }
         set{
             objc_setAssociatedObject(self, &AssociatedKeys.clickDurationTime, newValue as TimeInterval, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            
         }
     }
     /// 存储上次点击的时间
